@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import requests
 
 app = Flask(__name__)
-GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"  # Replace this with your real key
+GOOGLE_API_KEY = "AIzaSyCOswgZfQzUK5o8xeW16zJInpXHMh4s7LU"  # Replace this with your real key
 
 @app.route("/get_location", methods=["POST"])
 def get_location():
